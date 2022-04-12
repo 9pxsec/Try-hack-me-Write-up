@@ -5,13 +5,12 @@ Let’s start our Ctf by scanning the open ports using **Nmap**
 nmap -sV **IP**
 
 Output : 
-'''html
- PORT   STATE SERVICE VERSION
+
+**### PORT   STATE SERVICE VERSION
 21/tcp open  ftp     vsftpd 3.0.2
 22/tcp open  ssh     OpenSSH 6.7p1 Debian 5 (protocol 2.0)
 80/tcp open  http    Apache httpd 2.4.10 ((Debian))
-Service Info: OSs: Unix, Linux; CPE: cpe:/o:linux:linux_kernel
-'''
+Service Info: OSs: Unix, Linux; CPE: cpe:/o:linux:linux_kernel**
 
 So we found 3 open ports **FTP** , **SSH** , **HTTP**  let's check 
 
